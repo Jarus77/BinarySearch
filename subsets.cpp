@@ -40,3 +40,29 @@ int main(){
 
 
 }
+/*#include<iostream>
+using namespace std;
+#include<cstring>
+
+
+void solve(){
+	char arr[1000];
+	cin>>arr;	
+	int n=strlen(arr);
+	 
+	 for(int i=0;i<(1<<n);i++){
+	 	for(int j=0;j<n;j++){
+	 		if((i>>j)&1) cout<<arr[j];
+		 }
+		 cout<<"\n";		 
+	 }
+
+	
+	
+		
+}
+
+int main(){
+		solve();
+}*/
+
